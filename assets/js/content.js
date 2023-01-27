@@ -31,8 +31,8 @@ const content={
 
    generalQuestions:"Skrill Security in General",
    generalQuestionsP:"Security is an important component of our overall evaluation and must be taken into consideration in a rigorous research because the platform is responsible for protecting the assets stored therein. Here, we want to underline the security elements that the Skrill platform builds into the login processes. This is especially noteworthy in light of the fact that having a strong password or simply knowing our account information is no longer sufficient in today's culture. Instead, we must also consider external controls that provide us the chance to reduce the potential actions of outside intruders. In this sense, it is important to emphasize how distinct this platform is from others in the sector because it offers a",
-   lastT:"Responsive Design	",
-   lastTp:"The ease with which a website may be adapted to a device platform, whether it be a tablet, a phone, or a desktop computer, is one important consideration. The term "responsive" refers to a website's ability to appear correctly across all sorts of devices. This is crucial for users that access and utilize the website using various devices. There isn't much more to say about it as Skrill had a completely adaptable website that was the ideal fit for your screen on either a desktop or mobile device, earning a score of 10 out of 10.",
+   lastT:"Responsive Design",
+   lastTp:"The ease with which a website may be adapted to a device platform, whether it be a tablet, a phone, or a deskto computer, is one important consideration. The term responsive refers to a website's ability to appear correctly across all sorts of devices. This is crucial for users that access and utilize the website using various devices. There isn't much more to say about it as Skrill had a completely adaptable website that was the ideal fit for your screen on either a desktop or mobile device, earning a score of 10 out of 10.",
    lastTitle:"Want to start an account right away?",
 
    tiwtters:"https://twitter.com/skrill?af:tuestan",
