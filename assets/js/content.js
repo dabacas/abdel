@@ -1,76 +1,73 @@
- // classpreload hide
- // preloaded show
- const images={
-    picture1:"images/pic01.jpg",
-    picture2:"images/pic02.jpg",
-    picture3:"images/pic03.jpg",
-    picture4:"images/pic04.jpg",
-     
- }
-
- const imgKey=Object.keys(images)
- imgKey.map(x=>{document.querySelector("."+x).src=images[x]})
-
- const content={
-    titlePage:"Skrill Register an Account | New Customers Welcome",
-    header_Title:"Hello and welcome to My Skrill Reviews.",
-    p1:"the most significant platform user reviews may be found. Visit our page, give the articles ample time to go through, and discover a cold-blooded denial of our results.",
-    contin:"Explore",
-    whoweare:"Our Character",
-    whowearep:"We first became acquainted four months ago when my coworkers and I searched for a payment processor so that we could make certain deposits on specific websites. This prompted us to research the platforms on which we wanted to set up an online account because of the large range of options the website where we wanted to deposit provided. But what we actually needed was for the platform's key features and weaknesses relative to the primary one to be as honestly presented as possible. Typically, platforms showcase their strongest aspects.",
-    h21:"Beginning at the beginning",
-    h21p:"We have chosen to replicate the user assessments using interviews, surveys, and direct testing of the service ourselves in order to be able to gather everything and offer a complete explanation in the following articles. This is done to spare you the time and effort of being sidetracked by pretentious language and fabricated emotions. I evaluate the various qualities by contrasting them with their primary rivals, leaving the user with the final decision.",
-    h21pb:"Think about this Please keep in mind that we are not the provider of the final service for which the analysis process is carried out; we are not employed by them, and our sole objective is to give you a summary of its salient features while also giving you the chance to have all the information you need to be able to make your own judgments about it. However, we must be upfront and say that if you choose to sign up for the service via our website, we could receive a little payment as a result of the referral program included within the links and buttons on our website.",
-    includesFeatures:"Skrill features include:",
-    includesFeaturesP:"Here, we outline the salient features of the Skrill platform service that we have learned via interviews, our use of it, and comparisons with its leading competitors.",
-    h3Title:"Application of the Website Code for Skrill",
-    h3Titlep:"Skrill has done a fantastic job in this area, as we have seen, but to be quite honest, a correctly implemented code and site structure might make the difference between a slow and heavy service and a quick and user-friendly one. Despite being at the forefront of technology, Skrill does not set itself apart from other platforms of a similar nature. In fact, we venture to suggest that some of its rivals are technologically more sophisticated than it. Furthermore, we acknowledge that, in contrast to its competitors, Skrill offers a lot more extra goods and capabilities in its service, which encourages a little bit more work than other platforms.",
-
-    btn1:"Sign Up",
-    btn2:"Sign Up",
-    btn3:"Sign Up",
-    btn4:"Sign Up",
-
-    generalQuestions:"General Skrill Security",
-    generalQuestionsP:"Since the platform is in charge of safeguarding the assets contained inside, security is a crucial aspect of our total evaluation and must be taken into consideration in a careful study. Here, we want to emphasize that the Skrill platform incorporates a number of security features into the login procedures. This is especially notable in light of the fact that in today's society, merely knowing our account information or having a strong password is no longer adequate. Instead, we must also take into account exterior controls that provide us with the opportunity to lessen the possible activities of outside invaders. In this sense, it is important to emphasize how distinct this platform is from others in the sector because it offers a",
-    lastT:"Responsive Design	",
-    lastTp:"One factor to really consider is how easily a website can adapt to a device platform, whether it be a tablet, a phone, or a desktop computer. When we refer to a website as responsive, what we truly mean is that it can display properly on all types of devices. This is important for users that use different devices to access and use the website. There isn't much more to say about it as Skrill, like its main competitors, had a fully adjustable website that was the best match for your screen on either a desktop or mobile device, receiving a score of 10 out of 10.",
-    lastTitle:"Do you want to open an account now?",
-
-    tiwtters:"https://twitter.com/skrill?af:tramael34",
-
-    facebookF:"https://www.facebook.com/Skrillpayments?afl:ladietiier",
-
-    instagram0:"https://www.instagram.com/skrill/?hl:en&sj:gamenapol",
-
-    showAddr:"57, Rana Pratap Marg, Civil Lines, Lucknow, Uttar Pradesh 226001, IN",
-
-    btnLink:"https://account.skrill.com/wallet/account/sign-up?btag:a_134b_3230c_&program:SKRILL&afiliateCode:aADJGJHKL879906",
-
-    copy:"Copyright © 2023 All rights reserved"
-
- }
-
-
- const keys=Object.keys(content)
-
- keys.map(x=>{
-     if(x=="btnLink"){
-        document.querySelector(".btn1").href=content.btnLink
-        document.querySelector(".btn2").href=content.btnLink
-        document.querySelector(".btn3").href=content.btnLink
-        document.querySelector(".btn4").href=content.btnLink
-     }
-     else if(x=="tiwtters" || x=="facebookF" || x=="instagram0"){
-        document.querySelector(".tiwtters").href=content.tiwtters
-        document.querySelector(".facebookF").href=content.facebookF
-        document.querySelector(".instagram0").href=content.instagram0
-     }
-     else
-     document.querySelector("."+x).innerText=content[x]
-
- })
-
- document.querySelector(".favicon").href="images/favicon.png"
-
  
+ const images={
+   picture1:"images/pic01.jpg", 
+   picture2:"images/pic02.jpg",
+   picture3:"images/pic03.jpg",
+   picture4:"images/pic04.jpg",
+    
+}
+
+const imgKey=Object.keys(images)
+imgKey.map(x=>{document.querySelector("."+x).src=images[x]})
+
+const content={
+   titlePage:"Create a Skrill Account | Welcome New Users",
+   header_Title:"Thank you for visiting My Skrill Reviews.",
+   p1:"You may find the most important platform user reviews there. Visit our page, read the articles thoroughly, and you'll find a cold-blooded rejection of our findings.",
+   contin:"Observe",
+   whoweare:"Our Personality",
+   whowearep:"My coworkers and I initially met four months ago when we looked for a payment processor so that we could make precise deposits on particular websites. Due to the vast array of alternatives the website where we wanted to deposit offered, this led us to investigate the platforms on which we wanted to set up an online account. The platform's strengths and limitations in relation to the main one, however, needed to be conveyed as honestly as possible. Platforms often highlight their best qualities.",
+   h21:"going at the top",
+   h21p:"In order to gather all the information and provide a thorough explanation in the following articles, we have decided to recreate the user assessments using interviews, surveys, and direct testing of the service ourselves. We do this to save you the time and effort of being distracted by conceit and manufactured feelings. I assess the various attributes by comparing them to their main competitors, leaving the user to make the final choice ", h21pb: "Consider this Please note that we are not the company providing the final service for which the analysis process is performed; we are not affiliated with them, and our primary goal is to offer you with a summary of its key characteristics while also giving you the opportunity to submit feedback.",
+   includesFeatures:"Features of Skrill include:",
+   includesFeaturesP:"Here, we list the key characteristics of the Skrill platform service that we have discovered via interviews, personal experience, and comparisons with its top rivals.",
+   h3Title:"Application of the Skrill Website Code",
+   h3Titlep:"As we've seen, Skrill has done an excellent job in this regard, however, to be quite honest, properly written code and a well-designed website might be the difference between a slow, cumbersome service and a speedy, straightforward one. Despite being at the cutting edge of technology, Skrill does not distinguish itself from other comparable platforms. In fact, we'll even venture to say that some of its competitors are more advanced technologically than it. Additionally, we understand that Skrill gives a lot more extra features and products than its rivals do, which promotes a little bit more work than other platforms.",
+
+   btn1:"Join Now",
+   btn2:"Join Now",
+   btn3:"Join Now",
+   btn4:"Join Now",
+
+   generalQuestions:"Skrill Security in General",
+   generalQuestionsP:"Security is an important component of our overall evaluation and must be taken into consideration in a rigorous research because the platform is responsible for protecting the assets stored therein. Here, we want to underline the security elements that the Skrill platform builds into the login processes. This is especially noteworthy in light of the fact that having a strong password or simply knowing our account information is no longer sufficient in today's culture. Instead, we must also consider external controls that provide us the chance to reduce the potential actions of outside intruders. In this sense, it is important to emphasize how distinct this platform is from others in the sector because it offers a",
+   lastT:"Responsive Design	",
+   lastTp:"The ease with which a website may be adapted to a device platform, whether it be a tablet, a phone, or a desktop computer, is one important consideration. The term "responsive" refers to a website's ability to appear correctly across all sorts of devices. This is crucial for users that access and utilize the website using various devices. There isn't much more to say about it as Skrill had a completely adaptable website that was the ideal fit for your screen on either a desktop or mobile device, earning a score of 10 out of 10.",
+   lastTitle:"Want to start an account right away?",
+
+   tiwtters:"https://twitter.com/skrill?af:tuestan",
+
+   facebookF:"https://www.facebook.com/Skrillpayments?afl:fatter",
+
+   instagram0:"https://www.instagram.com/skrill/?hguelpol",
+
+   showAddr:"Kannakatte - Kotturu Rd, behind Tungabadra shikshana samsthe, Jathappa Kenganavara, Kotturu, Karnataka 583134, IN",
+
+   btnLink:"https://account.skrill.com/wallet/account/sign-up?btag:a_13331Pb_3230c_&program:SKRILL&afiliateCode:ASUg823479173",
+
+   copy:"Copyright © 2023 All rights reserved"
+
+}
+
+
+const keys=Object.keys(content)
+
+keys.map(x=>{
+    if(x=="btnLink"){
+       document.querySelector(".btn1").href=content.btnLink
+       document.querySelector(".btn2").href=content.btnLink
+       document.querySelector(".btn3").href=content.btnLink
+       document.querySelector(".btn4").href=content.btnLink
+    }
+    else if(x=="tiwtters" || x=="facebookF" || x=="instagram0"){
+       document.querySelector(".tiwtters").href=content.tiwtters
+       document.querySelector(".facebookF").href=content.facebookF
+       document.querySelector(".instagram0").href=content.instagram0
+    }
+    else
+    document.querySelector("."+x).innerText=content[x]
+
+})
+
+document.querySelector(".favicon").href="images/favicon.png"
+
